@@ -1,0 +1,18 @@
+﻿<Configuration>
+  <Add OfficeClientEdition="64" Channel="Current" AllowCdnFallback="true">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="cs-cz" />
+      <Language ID="en-us" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Bing" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Teams" />
+    </Product>
+  </Add>
+  <Display AcceptEULA="True" />
+  <Property Name="ForceAppShutdown" Value="True" />
+  <Extend DownloadFirst="true" />
+</Configuration>
